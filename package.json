@@ -1,0 +1,17 @@
+{
+  "name": "genai-js",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/node": "^24.9.1",
+    "dotenv": "^17.2.3",
+    "openai": "^6.7.0"
+  }
+}
