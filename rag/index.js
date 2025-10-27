@@ -3,7 +3,7 @@ import { OpenAIEmbeddings } from "@langchain/openai";
 import { QdrantVectorStore } from "@langchain/qdrant";
 import 'dotenv/config'
 
-const path = "./nodejs.pdf";
+const path = "../nodejs.pdf";
 async function index(){
 
     const loader = new PDFLoader(path);
